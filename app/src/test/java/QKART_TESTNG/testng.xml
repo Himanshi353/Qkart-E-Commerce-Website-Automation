@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNG Parameters Suite">
+    <listeners>
+        <listener class-name = "QKART_TESTNG.testcases.ListenerClass"></listener>
+    </listeners>
+    <test name="Test Execution using TestNg">
+        <groups>
+            <run>
+              <include name = "Sanity_test"></include>
+              <include name = "Regression_Test"></include>
+            </run>
+        </groups>
+        <parameter name="Username" value="testUser" />
+        <parameter name="Password" value="abc@123" />
+        <parameter name="product1" value="YONEX" />
+        <parameter name="product2" value="Gesundheit" />
+        <parameter name="shoes" value="Running Shoes" />
+        <parameter name="YONEX" value="YONEX Smash Badminton Racquet" />
+        <parameter name="Tan" value="Tan Leatherette Weekender Duffle" />
+        <parameter name="Address" value="Addr line 1 addr Line 2 addr line 3" />
+        <parameter name="Stylecon" value="Stylecon 9 Seater RHS Sofa Set "/>
+        <parameter name="Qty" value="10" />
+        <parameter name="Xtend" value="Xtend Smart Watch" />
+        <parameter name="Yarine" value="Yarine Floor Lamp" />
+        <parameter name="Name" value="crio user" />
+        <parameter name="Email" value="criouser@gmail.com" />
+        <parameter name="Message" value="Testing the contact us page" />
+        <classes>
+            <class name="QKART_TESTNG.testcases.QKART_Tests">
+                <!-- <methods>
+                    <include name="TestCase01" />
+                    <include name="TestCase02" />
+                    <include name="TestCase03" />
+                    <include name="TestCase04" />
+                    <include name="TestCase05" />
+                    <include name="TestCase06" />
+                    <include name="TestCase07" />
+                    <include name="TestCase08" />
+                    <include name="TestCase09" />
+                    <include name="TestCase10" />
+                    <include name="TestCase11" />
+                </methods> -->
+            </class>
+        </classes>
+    </test>
+</suite>
+
