@@ -32,4 +32,4 @@
 <li><strong>XPath</strong> for dynamic locators</li>
 <li><strong>Extent Reports</strong> for generating custom test reports</li>
 </ul>
-<p>For more details, refer to my <a href="">Portfolio</a></p>
+<p>For more details, refer to my <a href="https://www.crio.do/learn/portfolio/himanshigupta353/ME_QKART_QA_V2/">Portfolio</a></p>
